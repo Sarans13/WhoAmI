@@ -990,10 +990,14 @@ button:focus {
 
 }
 
-@media screen and (max-width:412){
+@media screen and (width <=412px){
     
     .small-para{
         text-align: left;
+    }
+
+    .right-slide .first-one .name-para{
+        font-size: 1.45rem;
     }
 }
 
