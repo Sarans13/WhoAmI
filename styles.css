@@ -813,6 +813,23 @@ button:focus {
   }
   
   @media only screen and (max-width: 500px) {
+
+    .slider-container .action-buttons .down-button {
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        z-index: 100;
+        transform: translateX(-100%);
+    }
+    
+    .slider-container .action-buttons .up-button {
+        position: absolute;
+        left: 90%;
+        top: 90%;
+        z-index: 100;
+        transform: translateY(-100%);
+    }
+
     .contactDesign2 form .contactInfo {
       padding: 1rem;
     }
