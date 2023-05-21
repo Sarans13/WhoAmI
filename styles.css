@@ -138,7 +138,7 @@ body {
 
 .right-slide .first-one .third-para {
     font-size: 1rem;
-    width: 75%;
+    width: 100%;
     text-align: center;
 }
 
@@ -1032,15 +1032,14 @@ button:focus {
         padding: 0;
     }
 
-
-
     .lets-work-image img {
         display: block;
         position: relative;
-        top: 20vh;
+        top: -0.5vh;
         width: 160%;
-        height: 40vh;
+        height: 67.5vh;
     }
+
 }
 
 @media screen and (width <=590px) {
